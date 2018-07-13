@@ -9,7 +9,7 @@ class Dog
 
   def initialize(name, breed, age)
     self.name, self.breed, self.age = name, breed, age
-    self.all << Dog.new
+    self.all << self
   end
 
 end
